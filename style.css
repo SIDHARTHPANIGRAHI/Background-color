@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ae55f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25vh;
+    font-weight: 900;
+    white-space: nowrap;
+    user-select: none;
+    color: rgba(0,0,0,0.2);
+}
+.selectcolor{
+    position: relative;
+    padding: 10px;
+    border: none;
+    border-right: 10px solid white;
+    outline:none;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.1);
+    font-size: 16px;
+    font-weight: 600;
+    
+}
